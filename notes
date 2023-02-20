@@ -1,0 +1,59 @@
+DSA 8502 - L2 - Predictive and Optimization Analytics - Hypothesis Testing & Statistical sampling
+  - Hypothesis testing
+  - Type I and type II errors
+  - Sampling techniques
+  
+  
+DSA 8502 - L3-Predictive and Optimization Analytics - Resampling and resampling methods
+  - Resampleing
+    - over sampling
+    - under samplings
+    
+  Resampling methods
+    - Boostraping - drawing sample data repeatedly with replacement
+    
+    
+DSA 8502 - L4 - Predictive and Optimization Analytics - Resampling and resampling methods1
+  - Cross validation
+    - Hold Out Cross-validation or Train-Validation-Test Split
+    - K-Fold Cross-Validation
+    - Stratified k-Fold Cross Validation - for imbalance data, folds will have same ratio of classes
+    - Leave-P-out Cross Validation - p=10 leave out 10 to be used for validation, repeat untill all data sets are used
+    - Leave-One-out Cross Validation - one point left out for test
+    - Monte Carlo Cross-Validation (Shuffle Split) - randomly partitioned into training and validation
+    - Time Series Cross-Validation - adjucent time period
+    
+   
+DSA 8502 - L5-Predictive and Optimization Analytics - Evaluation methods for predictive and classification problems
+  - Evaluation methods for regression models (MSE, MAE, RMSPE)
+  - Evaluation methods for Classification models 
+  
+  
+DSA 8502 - L6-Predictive and Optimization Analytics - Learning Methods in Predictive Modelling
+  - ML classification
+    - Supervised
+    - Unsupervised
+    - Reinforcement learning
+  ML LifeCylcle
+    - Plan - Explore - Build - Evaluate
+    
+    
+DSA 8502 - L7 - Predictive and Optimization Analytics - Supervised Learning - Iterative Dichotomiser-3
+  Entropy
+  Information Gain
+  
+
+DSA 8502 - L8-Predictive and Optimization Analytics - Supervised Learning - Support Vector Machines
+  https://www.datacamp.com/tutorial/svm-classification-scikit-learn-python
+  
+  
+DSA 8502 - L9 - Predictive and Optimization Analytics - Unsupervised Learning - Clustering
+  - Exclusive and Overlapping Clustering eg K-means
+  - Hierarchical clustering
+    - Agglomerative - data points are isolated asseparate groupings initially, and then they are merged together iteratively on the basis ofsimilarity
+    - Divisive - a single data cluster is divided based on the differences between data points.
+  - Probabilistic (density-based) clustering
+    data points are clustered based on the likelihood that they belong to a particular distribution.
+    eg. - Density-Based Spatial Clustering of Applications with Noise (DBSCAN), and Ordering Points To Identify the Clustering Structure (OPTICS).
+    
+  - Gaussian Mixture Models
